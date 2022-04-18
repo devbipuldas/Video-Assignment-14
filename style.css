@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* transform section */
+.wraper-section{ 
+ 
+    width: 1003px;
+    height: auto;
+    border: 1px solid red; 
+    display: inline-block; 
+    margin-left: 262px;
+    margin-top: 80px;
+    text-align: center;
+    overflow: hidden;
+   
+}
+
+.div1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 10px;
+    transform: translate(10px,50px);
+    transition: .5s;
+}
+.div2{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 10px;
+    transform: rotate(40deg);
+    transition: .5s;
+}
+.div3{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    transform: skew(20deg);
+    transition: .5s;
+}
+
+.div4{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+   transform: scale(.9);
+    transition: .5s;
+}
+
+.div1:hover{
+transform:scale(.7);
+}
+
+.div2:hover{
+transform: rotate(80deg);
+}
+.div3:hover{
+transform: skew(20deg,50deg );
+}
+
+.div4:hover{
+transform: rotate(180deg);
+    }
+/* transform section */
+
+/* <!-- picture transform --> */
+
+.Pic-main-div{
+width: 900px;
+height: auto;
+border: 1px solid rebeccapurple;
+margin-top: 50px;
+margin-left: 50px;
+text-align: center; 
+}
+
+
+
+.picture-div{
+  overflow: hidden;
+}
+
+.Pic-main-div .pic{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+ .div-one img{
+   transition: .5s; 
+}
+
+ .div-one img:hover{
+    transform: rotate(360deg);
+    
+}
+
+.div-two img{
+    transition: .5s; 
+}
+ .div-two img:hover{
+    transform: scale(1.5);
+    
+}
+
+.div-three img{
+    transition: .5s;
+}
+
+
+ .div-three img:hover{
+    transform: rotate(-40deg);
+}
+
+.div-four img{
+    transition: .5s;
+}
+
+
+ .div-four img:hover{
+    transform: rotate(-820deg);
+}
+
+.div-five img{
+    transition: .5s;
+}
+
+
+ .div-five img:hover{
+    transform: rotate(135deg);
+}
+
+.div-six img{
+    transition: .5s;
+}
+
+
+ .div-six img:hover{
+    transform: scale(3);
+}
+
+.div-seven img{
+    transition: .5s;
+}
+
+
+ .div-seven img:hover{
+    transform: rotate(-20deg);
+}
+
+.div-eight img{
+    transition: .5s;
+}
+
+
+ .div-eight img:hover{
+transform: scale(2);
+}
+/* <!-- picture transform --> */
